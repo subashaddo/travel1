@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+}
+.logo img {
+  width: 118px;
+  margin-bottom: 30px;
+}
+/* .page {
+  margin-top: 80px;
+  
+} */
+.drow {
+  background-image: linear-gradient(
+    180deg,
+    rgb(226, 226, 226),
+    rgb(255, 255, 255)
+  );
+  padding: 20px;
+  border-radius: 50px;
+}
+.clude {
+  gap: 20px;
+  align-items: baseline;
+}
+
+.droups {
+  margin: auto;
+}
+.contact button {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 0.5px solid black;
+}
+.contact button:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+}
+.fonts {
+  font-size: 30px;
+}
+.catlog img {
+  height: auto;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.inner-img {
+  transition: 0.5s;
+}
+.inner-img:hover {
+  transform: scale(1.1);
+}
+.view button {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 6px;
+  border: 0.5px solid black;
+}
+.view button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 82, 189);
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+}
+.play {
+  font-size: 20px;
+  font-weight: 800;
+}
+.next {
+  font-size: 35px;
+  font-weight: 900;
+}
+.half source {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+.relative {
+  position: relative;
+  bottom: 200px;
+}
+.dic a {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+.read a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 0.5px solid black;
+  padding: 12px;
+  margin-right: 20px;
+}
+.inter img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+.tip {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mall img {
+  height: 60px;
+  width: 100px;
+}
+.bord {
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 27px;
+  box-shadow: 7px 5px 20px rgb(148, 148, 148);
+}
+.last img {
+  width: 100%;
+  opacity: 0.3;
+}
+
+.best {
+  position: absolute;
+  padding-top: 100px;
+}
+.back {
+  display: flex;
+}
+.cons {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.social a {
+  margin-left: 30px;
+}
+.track {
+  border: 5px solid blue;
+}
+.pices:hover {
+  transform: rotate(15deg) scale(1.5);
+}
+.size {
+  overflow: hidden;
+}
+.footer {
+  background: linear-gradient(160deg, rgb(0, 11, 167), rgb(56, 72, 139));
+  height: 400px;
+  width: 100%;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+.info {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* tours_india*/
+
+.img__box img {
+  border-radius: 25px;
+  width: 100%;
+}
+.guest {
+  background-color: rgb(12, 12, 255);
+  height: 80px;
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.guest a {
+  text-decoration: none;
+}
+.seah {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.back {
+  margin-left: 25px;
+}
+input[type="search"] {
+  outline: none !important;
+}
+
+.crew {
+  margin-left: 10px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.load {
+  font-size: 20px;
+}
+.benifit img {
+  width: 300px;
+  border-radius: 150px;
+}
+.chart img {
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 150px;
+}
+
+.inline {
+  margin-top: 80px;
+}
+.cold {
+  background-color: rgb(241, 241, 241);
+}
+.travel {
+  color: rgb(112, 112, 112);
+  font-family: "Times New Roman", Times, serif;
+}
+.news img {
+  width: 150px;
+  border-radius: 500px;
+  margin-right: 15px;
+  height: 150px;
+  border: 1px solid black;
+}
+.portal {
+  width: 100%;
+  border-radius: 15px;
+  height: 70vh;
+}
+.clicks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.addre {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Navbar css  */
+
+#nav__bar {
+  position: sticky;
+  top: 0;
+  z-index: 111;
+}
+.dropdown ul li a {
+  color: #000;
+}
+.dropdown ul li a:hover {
+ 
+  color: #ff0b0b;
+}
+.dropdown-menu {
+  background-image: url("img_44.png");
+  
+
+ 
+  height: auto;
+  width: 250px;
+}
+.dropdown ul{
+  padding: 30px;
+  line-height: 40px;
+}
+.dropdown ul li{
+  border-bottom: 1px solid rgba(148, 148, 148, 0.199);
+  
+}
+
+.navbar__section {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 30px;
+  align-items: center;
+}
+
+.navbar__section--logo img {
+  width: 100%;
+  height: 80px;
+}
+.navbar__content--list a {
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
+}
+.navbar__content--list {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 10px;
+}
+.navbar__content--list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 5px;
+}
+.navbar__content--list a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 12px;
+  padding: 5px;
+}
+.pasage {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.memory img {
+  height: auto;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.media {
+  display: flex;
+  gap: 15px;
+}
+.blogs {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+/* blog-page */
+.travel img {
+  width: 100%;
+}
+.chats {
+  display: flex;
+  gap: 10px;
+}
+.points {
+  gap: 40px;
+}
+.wild ul {
+  list-style: none;
+  display: grid;
+  gap: 20px;
+}
+.wild ul li:hover {
+  color: rgb(240, 82, 8);
+}
+.unic {
+  display: flex;
+  gap: 50px;
+}
+.lined {
+  padding: 20px;
+}
+/* about */
+.idea img {
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 100px;
+}
+.sticks {
+  color: #ffffff;
+  background-color: rgb(121, 121, 121);
+  padding: 30px;
+  margin-top: 20px;
+}
+.half {
+  margin-top: 90px;
+}
+.half video {
+  width: 100%;
+}
+.flight img {
+  margin-left: 90px;
+  height: auto;
+  width: 600px;
+}
+/* contact_page */
+.cont {
+  background-color: #dadada;
+  padding: 20px;
+  border-radius: 15px;
+}
+.bond img {
+  height: auto;
+  width: 400px;
+}
